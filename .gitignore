@@ -1,0 +1,31 @@
+# 依存関係
+node_modules/
+
+# ビルド成果物
+dist/
+build/
+
+# Viteキャッシュ
+.vite/
+
+# 環境変数
+.env
+.env.local
+.env.*.local
+
+# ログファイル
+*.log
+npm-debug.log
+yarn-error.log
+
+# OSやエディター固有のファイル
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.user
+
+# その他
+coverage/
+temp/
+tmp/
